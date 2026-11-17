@@ -1,0 +1,10 @@
+[package]
+name = "pixel-script"
+description = "Drawing language (embedded Rhai) on top of pixel-core."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+pixel-core.workspace = true
+rhai.workspace = true

@@ -1,0 +1,12 @@
+{
+  "name": "pixelcode",
+  "description": "pixelcode: a pixel-perfect drawing engine for AI agents, with its Claude Code plugin.",
+  "owner": { "name": "pixelcode" },
+  "plugins": [
+    {
+      "name": "pixel-studio",
+      "source": "./claude-plugin/pixel-studio",
+      "description": "Live pixelcode canvas inside Claude Code: a pane, thumbnails, a status line and /pixel."
+    }
+  ]
+}

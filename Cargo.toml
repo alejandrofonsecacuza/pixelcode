@@ -1,0 +1,29 @@
+[workspace]
+resolver = "3"
+members = ["crates/pixel-core", "crates/pixel-script", "crates/pixel"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[workspace.dependencies]
+pixel-core = { path = "crates/pixel-core" }
+pixel-script = { path = "crates/pixel-script" }
+rayon = "1.12"
+png = "0.18"
+font8x8 = "0.3"
+rhai = "1.27"
+serde_json = "1"
+base64 = "0.23"
+clap = { version = "4.6", features = ["derive"] }
+terminal_size = "0.4"
+criterion = "0.8"
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+
+[profile.bench]
+lto = "fat"
+codegen-units = 1

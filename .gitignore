@@ -1,0 +1,7 @@
+/target
+/.pixel
+*.png.tmp
+# Local Claude Code settings and drawings made while trying things out
+/.claude/
+/*.png
+/*.html

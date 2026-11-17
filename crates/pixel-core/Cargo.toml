@@ -1,0 +1,18 @@
+[package]
+name = "pixel-core"
+description = "Pixel-perfect drawing engine: tiled canvas, span rasterization, layers and history."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+rayon.workspace = true
+png.workspace = true
+font8x8.workspace = true
+
+[dev-dependencies]
+criterion.workspace = true
+
+[[bench]]
+name = "raster"
+harness = false

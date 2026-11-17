@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "pixel": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/pixel-mcp",
+      "args": []
+    }
+  }
+}

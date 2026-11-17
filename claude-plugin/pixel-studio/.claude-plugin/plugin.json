@@ -1,0 +1,7 @@
+{
+  "name": "pixel-studio",
+  "version": "0.1.0",
+  "description": "Live pixelcode canvas inside Claude Code: a pane next to the chat, thumbnails under each drawing, a status line and /pixel.",
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}
